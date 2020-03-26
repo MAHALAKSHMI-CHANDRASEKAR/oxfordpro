@@ -46,6 +46,14 @@ public class DownloadFile_main {
 	{
 		driver.findElement(By.xpath("//*[@id=\"submitButton\"]")).click();
 	}
+	//taking screenshot		
+public void screenshot(String path) throws IOException, InterruptedException
+	{
+	   TakesScreenshot ts=(TakesScreenshot)driver;
+	   File src=ts.getScreenshotAs(OutputType.FILE);
+	   FileUtils.copyFile(src,new File(path));					
+	}
+
 	public void close_page() throws InterruptedException
 	{
 		Thread.sleep(3000);

@@ -37,6 +37,13 @@ WebDriver driver;
 		String email=driver.findElement(By.id("header-account-info-user-fullname")).getText();
 		System.out.println(email);
 	}
+	//taking screenshot		
+    public void screenshot(String path) throws IOException, InterruptedException
+	{
+	   TakesScreenshot ts=(TakesScreenshot)driver;
+	   File src=ts.getScreenshotAs(OutputType.FILE);
+	   FileUtils.copyFile(src,new File(path));					
+	}
 	public void close()
 	{
 		driver.close();

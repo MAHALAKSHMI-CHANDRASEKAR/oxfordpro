@@ -35,6 +35,14 @@ public void select_currency() throws InterruptedException
 	driver.findElement(By.xpath("//*[@id=\"basket_currency_choice\"]/a[1]")).click();
 	Thread.sleep(3000);
 }
+//taking screenshot		
+public void screenshot(String path) throws IOException, InterruptedException
+{
+   TakesScreenshot ts=(TakesScreenshot)driver;
+   File src=ts.getScreenshotAs(OutputType.FILE);
+   FileUtils.copyFile(src,new File(path));					
+}
+
 public void close_page() 
 {
 	driver.close();

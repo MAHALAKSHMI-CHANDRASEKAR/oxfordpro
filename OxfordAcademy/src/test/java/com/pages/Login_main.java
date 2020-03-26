@@ -37,7 +37,13 @@ public class Login_main {
 			Thread.sleep(2000);
 		
 		}
-			
+		//taking screenshot		
+	    public void screenshot(String path) throws IOException, InterruptedException
+		{
+		   TakesScreenshot ts=(TakesScreenshot)driver;
+		   File src=ts.getScreenshotAs(OutputType.FILE);
+		   FileUtils.copyFile(src,new File(path));					
+		}	
 		public void oxfordClose() throws InterruptedException, IOException 
 		{
 			Thread.sleep(3000);

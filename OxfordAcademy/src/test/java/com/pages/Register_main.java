@@ -44,6 +44,13 @@ public class Register_main {
 			driver.findElement(submit).sendKeys(Keys.ENTER);
 			Thread.sleep(3000);
 		}
+		//taking screenshot		
+	    public void screenshot(String path) throws IOException, InterruptedException
+		{
+		   TakesScreenshot ts=(TakesScreenshot)driver;
+		   File src=ts.getScreenshotAs(OutputType.FILE);
+		   FileUtils.copyFile(src,new File(path));					
+		}
 		public void exit() throws InterruptedException
 		{
 			Thread.sleep(5000);

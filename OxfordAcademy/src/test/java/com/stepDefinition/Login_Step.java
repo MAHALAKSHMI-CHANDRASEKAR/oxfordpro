@@ -23,6 +23,7 @@ public class Login_Step {
 	@Then("^The user login using \"([^\"]*)\" and \"([^\"]*)\" with vaild and invaild deatils$")
 	public void the_user_enters_the_valid_login_details(String emailId, String password) throws Throwable {
 		l.oxfordDetails(emailId, password);
+	l.screenshot("src\\test\\resources\\Driver\\login.png");
 	}
 
 	@Then("^the user closes the browser$")
