@@ -21,6 +21,7 @@ public class PrintUser_Id_step {
 	@Then("^I print the email id$")
 	public void i_print_the_email_id() throws Throwable {
 	   p.email_id();
+	   p.screenshot("src\\test\\resources\\screenshot\\email.png");
 	}
 
 	@Then("^I closed the page$")

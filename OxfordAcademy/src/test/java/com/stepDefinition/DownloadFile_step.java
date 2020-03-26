@@ -25,6 +25,7 @@ public class DownloadFile_step {
 	@Then("^I click dispatch date button$")
 	public void i_click_dispatch_date_button() throws Throwable {
 	    d.dispatch_date();
+	    d.screenshot("src\\test\\resources\\screenshot\\download.png");
 	}
 
 	@Then("^I select a journal$")

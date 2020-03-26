@@ -3,416 +3,6 @@
     "line": 2,
     "elements": [
       {
-        "line": 5,
-        "name": "Registering into Oxford Academy",
-        "description": "",
-        "id": "oxford-academy-website;registering-into-oxford-academy",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 12964822300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Launch Chrome browser",
-            "match": {
-              "location": "Register_step.launch_Chrome_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10042632200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "open Oxford Academy website",
-            "match": {
-              "location": "Register_step.open_Oxford_Academy_website()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 16223208000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "register the valid details",
-            "match": {
-              "location": "Register_step.register_the_valid_details()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5362899200,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "close browser",
-            "match": {
-              "location": "Register_step.close_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 4,
-            "name": "@tc01_Oxford_Academy_register"
-          }
-        ]
-      },
-      {
-        "line": 23,
-        "name": "Logging into Oxford Academy",
-        "description": "",
-        "id": "oxford-academy-website;logging-into-oxford-academy;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3566783200,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the user launch chrome",
-            "match": {
-              "location": "Login_Step.the_user_launch_chrome()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10505382100,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "the user opens website",
-            "match": {
-              "location": "Login_Step.the_user_opens_website()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5718279600,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The user login using \"mahachan@gmail.com\" and \"truedream\" with vaild and invaild deatils",
-            "match": {
-              "arguments": [
-                {
-                  "val": "mahachan@gmail.com",
-                  "offset": 22
-                },
-                {
-                  "val": "truedream",
-                  "offset": 47
-                }
-              ],
-              "location": "Login_Step.the_user_enters_the_valid_login_details(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7249232800,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the user closes the browser",
-            "match": {
-              "location": "Login_Step.the_user_closes_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@Oxford_Academy_feature"
-          },
-          {
-            "line": 12,
-            "name": "@tc02_Oxford_Academy_login"
-          }
-        ]
-      },
-      {
-        "line": 24,
-        "name": "Logging into Oxford Academy",
-        "description": "",
-        "id": "oxford-academy-website;logging-into-oxford-academy;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4101972200,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the user launch chrome",
-            "match": {
-              "location": "Login_Step.the_user_launch_chrome()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7544316400,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "the user opens website",
-            "match": {
-              "location": "Login_Step.the_user_opens_website()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5727742200,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The user login using \"koms@gmail.com\" and \"komskitty\" with vaild and invaild deatils",
-            "match": {
-              "arguments": [
-                {
-                  "val": "koms@gmail.com",
-                  "offset": 22
-                },
-                {
-                  "val": "komskitty",
-                  "offset": 43
-                }
-              ],
-              "location": "Login_Step.the_user_enters_the_valid_login_details(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7361086900,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the user closes the browser",
-            "match": {
-              "location": "Login_Step.the_user_closes_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@Oxford_Academy_feature"
-          },
-          {
-            "line": 12,
-            "name": "@tc02_Oxford_Academy_login"
-          }
-        ]
-      },
-      {
-        "line": 25,
-        "name": "Logging into Oxford Academy",
-        "description": "",
-        "id": "oxford-academy-website;logging-into-oxford-academy;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2498085700,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the user launch chrome",
-            "match": {
-              "location": "Login_Step.the_user_launch_chrome()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 10526815000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "the user opens website",
-            "match": {
-              "location": "Login_Step.the_user_opens_website()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5339524400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The user login using \"mahalakshmi.c98@gmail.com\" and \"Maha@12345\" with vaild and invaild deatils",
-            "match": {
-              "arguments": [
-                {
-                  "val": "mahalakshmi.c98@gmail.com",
-                  "offset": 22
-                },
-                {
-                  "val": "Maha@12345",
-                  "offset": 54
-                }
-              ],
-              "location": "Login_Step.the_user_enters_the_valid_login_details(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3102107200,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "the user closes the browser",
-            "match": {
-              "location": "Login_Step.the_user_closes_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@Oxford_Academy_feature"
-          },
-          {
-            "line": 12,
-            "name": "@tc02_Oxford_Academy_login"
-          }
-        ]
-      },
-      {
-        "line": 28,
-        "name": "download Csv.file from journal",
-        "description": "",
-        "id": "oxford-academy-website;download-csv.file-from-journal",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1907410600,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I launch the chrome browser",
-            "match": {
-              "location": "DownloadFile_step.i_launch_the_chrome_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 8113642400,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "I open the oxford website",
-            "match": {
-              "location": "DownloadFile_step.i_open_the_oxford_website()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1090483900,
-              "status": "passed"
-            },
-            "line": 32,
-            "name": "I click the journalAtoZ button",
-            "match": {
-              "location": "DownloadFile_step.i_click_the_journalAtoZ_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2888205900,
-              "status": "passed"
-            },
-            "line": 33,
-            "name": "I click dispatch date button",
-            "match": {
-              "location": "DownloadFile_step.i_click_dispatch_date_button()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1165620200,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "I select a journal",
-            "match": {
-              "location": "DownloadFile_step.i_select_a_journal()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 569241300,
-              "status": "passed"
-            },
-            "line": 35,
-            "name": "I download the file",
-            "match": {
-              "location": "DownloadFile_step.i_download_the_file()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3317916900,
-              "status": "passed"
-            },
-            "line": 36,
-            "name": "I close the page",
-            "match": {
-              "location": "DownloadFile_step.i_close_the_page()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 27,
-            "name": "@tc03_Oxford_Academy_Download_journal"
-          }
-        ]
-      },
-      {
         "line": 47,
         "name": "Changing the currency",
         "description": "",
@@ -422,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2518126200,
+              "duration": 11385396100,
               "status": "passed"
             },
             "line": 49,
@@ -434,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 7839175400,
+              "duration": 7802577000,
               "status": "passed"
             },
             "line": 50,
@@ -446,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 7320582100,
+              "duration": 5784081700,
               "status": "passed"
             },
             "line": 51,
@@ -458,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 8020292800,
+              "duration": 7666342100,
               "status": "passed"
             },
             "line": 52,
@@ -470,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 167910100,
+              "duration": 166139600,
               "status": "passed"
             },
             "line": 53,

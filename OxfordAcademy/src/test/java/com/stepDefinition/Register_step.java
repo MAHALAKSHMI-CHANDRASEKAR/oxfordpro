@@ -19,6 +19,8 @@ public class Register_step {
 	@Then("^register the valid details$")
 	public void register_the_valid_details() throws Throwable {
 	    r.register_details();
+		r.screenshot("src\\test\\resources\\screenshot\\register.png");
+
 	}
 
 	@Then("^close browser$")

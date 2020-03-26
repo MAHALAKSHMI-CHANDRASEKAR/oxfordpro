@@ -26,6 +26,7 @@ public class ChangeCurrency_step {
 	@Then("^user select currency$")
 	public void user_select_currency() throws Throwable {
 	   c.select_currency();
+	   c.screenshot("src\\test\\resources\\screenshot\\currency.png");
 	}
 
 	@Then("^user close the page$")
